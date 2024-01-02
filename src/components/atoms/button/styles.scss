@@ -1,0 +1,14 @@
+@import "@/styles/variables";
+.app-btn {
+  text-transform: uppercase;
+  cursor: pointer;
+  &__main {
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width: fit-content;
+    font-size: 12px;
+    background-color: $secondary-color;
+  }
+}

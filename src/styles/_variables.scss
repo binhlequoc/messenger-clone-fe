@@ -1,0 +1,18 @@
+$dark-theme: true !default;
+
+$main-color: #181818;
+$secondary-color: #f8dea5;
+
+$third-color: #ffffff;
+$fourth-color: #2f2f2f;
+$fifth-color: #494232;
+
+$form-bg: rgba(225, 225, 255, 0.2);
+
+@if $dark-theme {
+  $main-color: #181818;
+  $secondary-color: #f8dea5;
+
+  $third-color: #ffffff;
+  $fourth-color: #2f2f2f;
+}
