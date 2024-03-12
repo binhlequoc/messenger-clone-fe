@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+
 html,
 body,
 div,
@@ -128,5 +130,5 @@ input {
 }
 
 * {
-  font-family: "Helvetica";
+  font-family: "Helvetica Neue";
 }

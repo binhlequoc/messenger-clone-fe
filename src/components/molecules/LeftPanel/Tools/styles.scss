@@ -1,0 +1,39 @@
+@import "@/styles/variables";
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  .app-btn {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: transparent;
+    color: $in-active-text;
+    font-size: 12px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    width: 50px;
+    border-radius: 12px;
+
+    &:hover path {
+      stroke: $secondary-color;
+    }
+    &:hover svg {
+      fill: $secondary-color;
+    }
+    &:hover {
+      color: $secondary-color;
+      background-image: linear-gradient(
+        to top right,
+        rgba(24, 24, 24, 0.2) 0%,
+        rgba(131, 125, 112, 0.2) 50%,
+        rgba(223, 200, 150, 0.475) 100%,
+        $secondary-color
+      );
+    }
+  }
+}
